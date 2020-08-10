@@ -1,8 +1,6 @@
 /*==============================================短信验证码功能模块================================================*/
 //云通信基础能力业务短信发送，查询详情以及消费消息示例
 const SMSClient = require('@alicloud/sms-sdk');
-const accessKeyId = 'LTAIyJUY6O3qxcJr';
-const secretAccessKey = 'NBqr8EtiTmTN3gRKuhl7zLwnTfogxC';
 //初始化sms_client
 let smsClient = new SMSClient({accessKeyId,secretAccessKey});
 
